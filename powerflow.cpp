@@ -1,6 +1,8 @@
-#include <cmath.h>
-#include <vector.h>
-#include <complex.h>
+#include <iostream>
+#include <cmath>
+#include <vector>
+#include <complex>
+#include <Eigen/Dense>
 
 /*
 structure notes
@@ -10,3 +12,4 @@ in while loop, calculate jacobian
 solve for mag and angle mismatches until tolerance in range
 store results in vectors
 */
+
