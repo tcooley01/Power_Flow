@@ -15,7 +15,7 @@ solve for mag and angle mismatches until tolerance in range
 store results in vectors
 */
 
-int main(vector<vector<complex<float>>> Y, vector<complex<float>> S_in, vector<complex<float>> V_in, vector<int> Type, int Tol) {
+int main(const vector<vector<complex<float>>> &Y, const vector<complex<float>> &S_in, const vector<complex<float>> &V_in, const vector<int> &Type, const int &Tol) {
 
   vector<complex<float>> P = S_in;
   vector<int> Pcalc(P.size(), 0);
