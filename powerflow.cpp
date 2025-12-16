@@ -3,6 +3,8 @@
 #include <vector>
 #include <complex>
 #include <Eigen/Dense>
+#include <complex>
+using namespace std;
 
 /*
 structure notes
@@ -13,6 +15,6 @@ solve for mag and angle mismatches until tolerance in range
 store results in vectors
 */
 
-int main; {
+int main(vector<vector<complex<float>>> Y, vector<complex<float>> S_in, vector<complex<float>> V_in, vector<int> Type, int Tol) {
 
 }
