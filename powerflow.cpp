@@ -17,8 +17,8 @@ store results in vectors
 
 int main(vector<vector<complex<float>>> Y, vector<complex<float>> S_in, vector<complex<float>> V_in, vector<int> Type, int Tol) {
 
-  vector<float> P = S_in
-  Pcalc = 
+  vector<float> P = S_in;
+  vector<int> Pcalc(P.size(), 0);
 
 
 }
